@@ -57,8 +57,6 @@ def TANH(X):
     print("---------------------------------------------------")
 
     return tan
-
-
 #-----------------------------------------------------
 #05 : Plot All ACtivation Function 
 #------------------------------------------------------
@@ -79,7 +77,6 @@ def PlotActivation(sigmoid,relu,tan,X):
     plt.show()
 
     
-
 def main():
 
     X= AccepetInput()
@@ -91,24 +88,6 @@ def main():
     tan =TANH(X)
 
     PlotActivation(sigmoid,relu,tan,X)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 if __name__ == "__main__":
