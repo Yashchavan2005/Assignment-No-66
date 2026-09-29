@@ -1,4 +1,3 @@
-
 #-----------------------------------------------------------------
 # Step 01 : Take Input , Weight,Bias,Target And Learning Rate
 #-----------------------------------------------------------------
@@ -89,17 +88,6 @@ def main():
     oldweight , Gradient,Weight = UpdateWeights(Weights,Input,Error, Leraningrate)
 
     OldInfoAndUpdated(oldweight,Weight)
-
- 
-
-
-
-
-
-
-
-
-
 
 
 if __name__ == "__main__":
